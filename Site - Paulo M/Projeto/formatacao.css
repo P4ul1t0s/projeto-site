@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+li{
+    display: block;
+}
+
+#cabecalho{
+    border-bottom: solid black 3px;
+    height: 119px;
+    width: 100%;
+    padding-top: 25px;
+    margin: 0;
+}
+
+#cabecalho div{
+    text-align: center;
+}
+
+#cabecalho h1, #cabecalho h2{
+    margin: 0;
+}
+
+#nomeSite{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid black 4px;
+}
+
+nav{
+    height: 25px;
+    width: 1078px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav div{
+    border: solid black 2px;
+    border-radius: 3px;
+    float: left;
+    height: 100%;
+    width: 146px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+main{
+    width: 1078px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainIndex h1{
+    margin-left: 40px;
+}
+
+#mainIndex section{
+    width: 1078px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+
+#mainIndex section:last-child{
+    margin-bottom: 70px;
+}
+
+#mainIndex div{
+    height: 100%;
+    float: left;
+}
+
+#mainIndex img{
+    border: solid black 2px;
+    border-radius: 3px;
+}
+
+.imgI{
+    width: fit-content;
+}
+
+.txtI{
+    width: 708px;
+}
+
+.urlI{
+    margin-top: 60px;
+}
+
+.link{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid black 2px;
+    border-radius: 3px;
+}
+
+.link:hover{
+    border-color: red;
+}
+
+section:hover{
+    border-color: red;
+}
+
+.mains h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.mains section{
+    height: 400px;
+    width: 1078px;
+}
+
+.mains section:last-child{
+    margin-bottom: 40px;
+}
+
+.imagem{
+    border: solid black 2px;
+    width: 540px; 
+    height: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.texto{
+    margin-left: 560px;
+    width: 500px; 
+    height: 100%;
+    text-align: justify;
+}
+
+.tituloMateria{
+    text-align: center;
+}
+
+footer{
+    border-top: solid black 3px;
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div{
+    text-align: center;
+    float: left;
+}
+
+#menu{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+#menu h2, #menu li{
+    margin-left: 30%;
+}
+
+#sobre h2, #sobre li{
+    margin-right: 30%;
+}
+
+#sobre{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+}
